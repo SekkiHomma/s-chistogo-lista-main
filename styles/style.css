@@ -1,0 +1,238 @@
+body {
+    margin: 0;
+    background-color: #1e1e1e;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+}
+
+h1,h2,h3,h4,h5,h6,p,ul,ol,blockquote {
+    margin: 0;
+    padding: 0;
+}
+
+.content-section {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 360px;
+    min-height: 100px;
+    margin: auto;
+}
+
+.content-section_theme_dark {
+    color: #fff;
+
+
+}
+
+.content-section_theme_bright {
+    color: #131313;
+    background-color: #fee42a;
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 20px;
+}
+
+.header__logo {
+    display: block;
+    width: 80px;
+}
+
+.header__logo-image {
+    width: 100%;
+}
+
+.header__menu-list{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    list-style: none;
+}
+.header__menu-item .header__menu-link {
+    color: inherit;
+}
+
+.cover {
+    padding: 7px 24px 32px 20px;
+    background-image: url(/images/cover.svg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 94% auto;
+}
+
+.accent-span {
+    display: block;
+    font-family: EB Garamond, serif;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.accent-span.text-center {
+    text-align: center;
+}
+
+.accent-span.text-right {
+    text-align: right;
+}
+
+.intro {
+    padding: 0 20px 38px;
+}
+
+.intro__heading {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #CCCCCC;
+    gap: 22px;
+}
+
+.intro__title {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.intro__date {
+    text-wrap: nowrap;
+}
+
+.intro__main-text {
+    font-size: 16px;
+    line-height: 1.35;
+    color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.reasons {
+    padding: 40px 20px;
+}
+.content-section__subtitle .accent-span {
+    font-size: 28px;
+    font-family: EB Garamond, serif;
+    font-weight: 500;
+    line-height: 1.15;
+}
+
+.content-section__introduction {
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+}
+p.content-section__introduction {
+    margin: 32px 0 32px 0;
+}
+
+.content-section__list {
+    display: flex;
+    list-style: outside;
+    padding-left: 16px;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.content-section__list-item {
+    line-height: 21.6px;
+}
+
+.content-section__list-accent {
+    font-weight: 700;
+}
+
+.how-to {
+    padding: 40px 20px 60px;
+}
+
+.card-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.card_theme_dark {
+    background-color: #2c2c2c;
+    color: #fff;
+    border-radius: 30px;
+}
+
+.card_theme_bright {
+    background-color: #FEE42A;
+    color: #131313;
+    border-radius: 30px;
+    padding: 20px 0 0 0;
+}
+
+.card__author-photo {
+    width: 100px;
+    height: 100px;
+    margin: 20px auto 8px 20px;
+}
+
+.card__author-name {
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.2;
+    margin: 0 auto 8px 20px;
+}
+
+
+
+.card__title {
+    font-family: EB Garamond, serif;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 1.35;
+    margin: 0 20px 8px 20px;
+}
+
+.card__text {
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.6px;
+    padding: 0 20px 20px 20px;
+}
+
+.footer {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #fee42a;
+}
+
+.footer__copy {
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.35;
+    color: #f5f5f5;
+    text-align: left;
+    display: block;
+}
+
+.footer__links {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+.footer__links a {
+    color: #f5f5f5;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.25;
+}
